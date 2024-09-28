@@ -75,7 +75,7 @@ const BooksPage = () => {
                     ))}
                 </div>
             </div>
-            <div className="flex flex-col gap-[48px] w-[1040px]">
+            {/* <div className="flex flex-col gap-[48px] w-[1040px]">
                 <div className="text-4xl font-bold">Recomended Anime</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {anime.map((anime) => (
@@ -87,7 +87,7 @@ const BooksPage = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

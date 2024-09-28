@@ -11,7 +11,7 @@ export default function Home() {
         <div className="pt-6 text-[22px] leading-8">
           <ul className="list-disc pl-6 mt-4 flex flex-col gap-4">
             <li>
-              <strong> 👨‍💻 I'm a passionate software engineer</strong> with
+              <strong> 👨‍💻 I&apos;m a passionate software engineer</strong> with
               expertise in full-stack development.
             </li>
             <li>
