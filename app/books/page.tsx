@@ -19,6 +19,22 @@ const BooksPage = () => {
             id: 3,
             image: "/TKAMB.jpg",
         },
+        {
+            id: 4,
+            image: "/the idiot.jpg",
+        },
+        {
+            id: 5,
+            image: "/12 rules for life.jpg",
+        },
+        {
+            id: 6,
+            image: "/deep work.jpg",
+        },
+        {
+            id: 6,
+            image: "/the power of habits.jpg",
+        },
     ];
 
     const anime = [
@@ -64,7 +80,7 @@ const BooksPage = () => {
         <div className="flex flex-col gap-[48px] justify-between w-[1040px] py-[100px]">
             <div className="flex flex-col gap-[48px] w-[1040px]">
                 <div className="text-4xl font-bold">Recomended Books</div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8">
                     {books.map((book) => (
                         <div key={book.id} className="  duration-200">
                             <div className="flex justify-between">
