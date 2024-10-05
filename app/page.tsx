@@ -1,4 +1,4 @@
-import Profile from "../public/travismedia-portrait.jpg";
+import Profile from "../public/profile-pic.jpeg";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,10 +15,9 @@ export default function Home() {
               expertise in full-stack development.
             </li>
             <li>
-              🏙 Explore my portfolio showcasing web apps, e-commerce solutions,
-              microservices, and more.
+              🏙 <strong>I love building</strong> web applications and tools that make life easy.
             </li>
-            <li>🎥 Learn alongside me as I explore the world of software.</li>
+            <li>🎥 <strong>Learn alongside me</strong> as I explore the world of software.</li>
           </ul>
         </div>
       </div>
