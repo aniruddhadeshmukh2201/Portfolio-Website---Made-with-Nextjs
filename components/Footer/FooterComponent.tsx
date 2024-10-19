@@ -8,22 +8,21 @@ const FooterComponent = () => {
     },
   ];
   return (
-    <div className="bg-secondary flex flex-col align-middle">
-      <div className=" bg-secondary  flex justify-center align-middle">
-        <ul className="list-disc list-disc-custom flex flex-col gap-2 py-[60px] bg-secondary w-[1040px]">
+    <div className=" w-full flex justify-center bg-primary">
+      <div className="flex justify-between  text-tertiary  bg-primary w-[1040px] py-[40px] text-center text-sm ">
+        <div>© Aniruddha Deshmukh | All Rights Reserved</div>
+
+        <div className=" flex gap-2 bg-secondary">
           {social.map((item: any, index: number) => {
             return (
-              <li className="text-white font-light text-sm" key={index}>
+              <div className=" text-white font-light text-sm" key={index}>
                 <a target="_blank" href={item.link}>
                   {item.name}
                 </a>
-              </li>
+              </div>
             );
           })}
-        </ul>
-      </div>
-      <div className="bg-primary text-tertiary p-5 text-center text-sm">
-        © Aniruddha Deshmukh | All Rights Reserved
+        </div>
       </div>
     </div>
   );

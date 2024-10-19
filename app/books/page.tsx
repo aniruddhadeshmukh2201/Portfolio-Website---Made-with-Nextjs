@@ -79,7 +79,7 @@ const BooksPage = () => {
     return (
         <div className="flex flex-col gap-[48px] justify-between w-[1040px] py-[100px]">
             <div className="flex flex-col gap-[48px] w-[1040px]">
-                <div className="text-4xl font-bold">Recomended Books</div>
+                <div className="text-4xl font-bold">I loved reading these books</div>
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8">
                     {books.map((book) => (
                         <div key={book.id} className="  duration-200">
