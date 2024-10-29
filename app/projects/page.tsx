@@ -9,7 +9,7 @@ const projects = [
     imgSrc: "/ecommerce.png",
   },
   {
-    title: "Portfolio Project",
+    title: "Buy Indicator for Stocks",
     description: "This project involves building a Buy Indicator System for stocks in my portfolio, using a combination of financial metrics and valuation techniques.",
     imgSrc: "/market.jpg",
   },
@@ -25,12 +25,12 @@ const projects = [
       "A Mario-like platformer game developed using HTML5 Canvas and JavaScript, where players navigate through multiple levels filled with obstacles, enemies, and collectible items. This project emphasizes physics-based interactions, such as jumping, gravity, and collision detection. Through this project, I honed my skills in building game mechanics like character movement, level design, and animations on a 2D canvas. The game features retro-style pixel art to create a nostalgic experience, similar to the original Mario games.",
     imgSrc: "/mario.png",
   },
-  {
-    title: "Tank Battle Game - Canvas Project",
-    description:
-      "This project is a 2D tank battle game developed using HTML5 Canvas and JavaScript, inspired by classic arcade tank games. Players control a tank, maneuvering through a battlefield while shooting at enemies. The game features real-time physics, bullet trajectories, and enemy AI. I used Canvas API to create smooth animations, collision detection, and player interactions. This project was instrumental in deepening my understanding of game logic, state management, and rendering graphics efficiently on a 2D canvas.",
-    imgSrc: "/tank.png",
-  },
+  // {
+  //   title: "Tank Battle Game - Canvas Project",
+  //   description:
+  //     "This project is a 2D tank battle game developed using HTML5 Canvas and JavaScript, inspired by classic arcade tank games. Players control a tank, maneuvering through a battlefield while shooting at enemies. The game features real-time physics, bullet trajectories, and enemy AI. I used Canvas API to create smooth animations, collision detection, and player interactions. This project was instrumental in deepening my understanding of game logic, state management, and rendering graphics efficiently on a 2D canvas.",
+  //   imgSrc: "/tank.png",
+  // },
   // Add more projects as needed...
 ];
 
