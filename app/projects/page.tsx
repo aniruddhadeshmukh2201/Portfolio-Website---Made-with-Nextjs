@@ -26,7 +26,7 @@ const projects = [
     imgSrc: "/nokia.png",
   },
   {
-    title: "Mario-Inspired Platformer Game - Canvas Project",
+    title: "Mario-Inspired HTML Canvas Game",
     description:
       "A Mario-like platformer game developed using HTML5 Canvas and JavaScript, where players navigate through multiple levels filled with obstacles, enemies, and collectible items. This project emphasizes physics-based interactions, such as jumping, gravity, and collision detection. Through this project, I honed my skills in building game mechanics like character movement, level design, and animations on a 2D canvas. The game features retro-style pixel art to create a nostalgic experience, similar to the original Mario games.",
     imgSrc: "/mario.png",
