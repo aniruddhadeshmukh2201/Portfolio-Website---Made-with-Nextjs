@@ -15,6 +15,12 @@ const projects = [
     imgSrc: "/PLMS.png",
   },
   {
+    title: "Mario-Inspired HTML Canvas Game",
+    description:
+      "A Mario-like game developed using HTML5 Canvas and JavaScript, where players navigate through multiple levels filled with obstacles, enemies, and collectible items. This project emphasizes physics-based interactions, such as jumping, gravity, and collision detection. Through this project, I learned building game mechanics like character movement, level design, and animations on a 2D canvas.",
+    imgSrc: "/mario.png",
+  },
+  {
     title: "Buy Indicator for Stocks",
     description: "This project involves building a Buy Indicator System for stocks in my portfolio, using a combination of financial metrics and valuation techniques.",
     imgSrc: "/market.jpg",
@@ -25,12 +31,7 @@ const projects = [
       "This project recreates the classic Snake Game from old Nokia phones, using HTML5 Canvas. The game allows players to control a growing snake as it eats food to increase its size while avoiding collision with its own body.",
     imgSrc: "/nokia.png",
   },
-  {
-    title: "Mario-Inspired HTML Canvas Game",
-    description:
-      "A Mario-like game developed using HTML5 Canvas and JavaScript, where players navigate through multiple levels filled with obstacles, enemies, and collectible items. This project emphasizes physics-based interactions, such as jumping, gravity, and collision detection. Through this project, I learned building game mechanics like character movement, level design, and animations on a 2D canvas.",
-    imgSrc: "/mario.png",
-  },
+  
   // {
   //   title: "Tank Battle Game - Canvas Project",
   //   description:
