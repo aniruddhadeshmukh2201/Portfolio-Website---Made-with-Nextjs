@@ -9,6 +9,12 @@ const projects = [
     imgSrc: "/ecommerce.png",
   },
   {
+    title: "Parking Lot Management System",
+    description:
+      "This Java Spring Boot-based Parking Lot Management System allows users to rent out their parking spaces or book available spots for flexible timeframes. Designed with a user-friendly interface, it offers real-time tracking of space availability, customizable booking options, and secure payments. Owners can easily manage their listings, while renters enjoy a seamless reservation experience, complete with notifications for upcoming bookings. This project showcases my skills in building robust, user-centered applications with efficient space management and secure transaction features.",
+    imgSrc: "/PLMS.png",
+  },
+  {
     title: "Buy Indicator for Stocks",
     description: "This project involves building a Buy Indicator System for stocks in my portfolio, using a combination of financial metrics and valuation techniques.",
     imgSrc: "/market.jpg",
