@@ -3,7 +3,7 @@ import ProjectCard from "./_components/ProjectCard/page";
 
 const projects = [
   {
-    title: "E-Commerce Application - Full-Stack Project",
+    title: "E-Commerce Application",
     description:
       "A fully functional e-commerce platform modeled after modern online shopping websites like Amazon. This project showcases my skills in full-stack development, with a React.js front end and Spring Boot microservices for the back end. The application includes features like user authentication, product listings, shopping carts, order management, and payment processing. The back-end system is powered by a RESTful API, Kafka for message-driven services, and Kubernetes for container orchestration. This project highlights my ability to design scalable systems and integrate complex features into a seamless user experience.",
     imgSrc: "/ecommerce.png",
