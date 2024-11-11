@@ -3,23 +3,19 @@ import ProjectCard from "./_components/ProjectCard/page";
 
 const projects = [
   {
-    title: "E-Commerce Application",
+    title: "Mario-Inspired HTML Canvas Game",
     description:
-      "A fully functional e-commerce platform modeled after modern online shopping websites like Amazon.This project is made with with a React.js front end and Spring Boot microservices for the back end. The application includes features like user authentication, product listings, shopping carts, order management, and payment processing. The back-end system is powered by a RESTful API, Kafka for message-driven services, and Kubernetes for container orchestration.",
-    imgSrc: "/ecommerce.png",
+      "Designed and implemented a 2D physics-based platformer game with custom mechanics, interactive environment, and realistic object interactions. Players navigate through obstacles and platforms, incorporating complex physics such as friction, gravity, and collision detection for a smooth gameplay experience.",
+    imgSrc: "/mario.png",
   },
+  
   {
     title: "Parking Lot Management System",
     description:
       "Parking Lot Management System allows users to rent out their parking spaces or book available spots for flexible timeframes. It offers real-time tracking of space availability, customizable booking options, and secure payments. Owners can easily manage their listings, while renters enjoy a seamless reservation experience.",
     imgSrc: "/PLMS.png",
   },
-  {
-    title: "Mario-Inspired HTML Canvas Game",
-    description:
-      "A Mario-like game developed using HTML5 Canvas and JavaScript, where players navigate through multiple levels filled with obstacles, enemies, and collectible items. This project emphasizes physics-based interactions, such as jumping, gravity, and collision detection. Through this project, I learned building game mechanics like character movement, level design, and animations on a 2D canvas.",
-    imgSrc: "/mario.png",
-  },
+  
   {
     title: "Buy Indicator for Stocks",
     description: "This project involves building a Buy Indicator System for stocks in my portfolio, using a combination of financial metrics and valuation techniques.",
@@ -30,6 +26,12 @@ const projects = [
     description:
       "This project recreates the classic Snake Game from old Nokia phones, using HTML5 Canvas. The game allows players to control a growing snake as it eats food to increase its size while avoiding collision with its own body.",
     imgSrc: "/nokia.png",
+  },
+  {
+    title: "E-Commerce Application",
+    description:
+      "A fully functional e-commerce platform modeled after modern online shopping websites like Amazon.This project is made with with a React.js front end and Spring Boot microservices for the back end. The application includes features like user authentication, product listings, shopping carts, order management, and payment processing. The back-end system is powered by a RESTful API, Kafka for message-driven services, and Kubernetes for container orchestration.",
+    imgSrc: "/ecommerce.png",
   },
   
   // {
