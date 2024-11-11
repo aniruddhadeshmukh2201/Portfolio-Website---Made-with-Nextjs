@@ -8,32 +8,39 @@ const projects = [
       "Designed and implemented a 2D physics-based platformer game with custom mechanics, interactive environment, and realistic object interactions. Players navigate through obstacles and platforms, incorporating complex physics such as friction, gravity, and collision detection for a smooth gameplay experience.",
     imgSrc: "/mario.png",
   },
-  
+
   {
     title: "Parking Lot Management System",
     description:
       "Parking Lot Management System allows users to rent out their parking spaces or book available spots for flexible timeframes. It offers real-time tracking of space availability, customizable booking options, and secure payments. Owners can easily manage their listings, while renters enjoy a seamless reservation experience.",
     imgSrc: "/PLMS.png",
   },
-  
+  {
+    title: "Flint - An Interpreted Programming Language built in java",
+    description:
+      "Flint is a simple interpreted programming language built in Java. It supports basic arithmetic operations, variable assignment, and control flow statements like if-else and while loops. The language is designed to be easy to learn and use, making it ideal for beginners to practice programming concepts.",
+    imgSrc: "/flint.jpg",
+  },
+
   {
     title: "Buy Indicator for Stocks",
-    description: "This project involves building a Buy Indicator System for stocks in my portfolio, using a combination of financial metrics and valuation techniques.",
+    description:
+      "This project involves building a Buy Indicator System for stocks in my portfolio, using a combination of financial metrics and valuation techniques.",
     imgSrc: "/market.jpg",
   },
-  {
-    title: "Snake game from old Nokia phones",
-    description:
-      "This project recreates the classic Snake Game from old Nokia phones, using HTML5 Canvas. The game allows players to control a growing snake as it eats food to increase its size while avoiding collision with its own body.",
-    imgSrc: "/nokia.png",
-  },
-  {
-    title: "E-Commerce Application",
-    description:
-      "A fully functional e-commerce platform modeled after modern online shopping websites like Amazon.This project is made with with a React.js front end and Spring Boot microservices for the back end. The application includes features like user authentication, product listings, shopping carts, order management, and payment processing. The back-end system is powered by a RESTful API, Kafka for message-driven services, and Kubernetes for container orchestration.",
-    imgSrc: "/ecommerce.png",
-  },
-  
+  // {
+  //   title: "Snake game from old Nokia phones",
+  //   description:
+  //     "This project recreates the classic Snake Game from old Nokia phones, using HTML5 Canvas. The game allows players to control a growing snake as it eats food to increase its size while avoiding collision with its own body.",
+  //   imgSrc: "/nokia.png",
+  // },
+  // {
+  //   title: "E-Commerce Application",
+  //   description:
+  //     "A fully functional e-commerce platform modeled after modern online shopping websites like Amazon.This project is made with with a React.js front end and Spring Boot microservices for the back end. The application includes features like user authentication, product listings, shopping carts, order management, and payment processing. The back-end system is powered by a RESTful API, Kafka for message-driven services, and Kubernetes for container orchestration.",
+  //   imgSrc: "/ecommerce.png",
+  // },
+
   // {
   //   title: "Tank Battle Game - Canvas Project",
   //   description:
