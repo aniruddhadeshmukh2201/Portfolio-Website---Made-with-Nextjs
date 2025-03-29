@@ -7,21 +7,23 @@ const FooterComponent = () => {
       link: "https://www.linkedin.com/in/aniruddha-deshmukh-abb44112b/",
     },
   ];
+
   return (
-    <div className=" w-full flex justify-center bg-primary">
-      <div className="flex justify-between  text-tertiary  bg-primary w-[1040px] py-[40px] text-center text-sm ">
+    <div className="w-full flex justify-center bg-primary px-4">
+      <div className="flex flex-col md:flex-row justify-between items-center text-tertiary bg-primary w-full max-w-[1040px] py-[40px] text-center text-sm">
         <div>© Aniruddha Deshmukh | All Rights Reserved</div>
 
-        <div className=" flex gap-2 bg-secondary">
-          {social.map((item: any, index: number) => {
-            return (
-              <div className=" text-white font-light text-sm" key={index}>
-                <a target="_blank" href={item.link}>
-                  {item.name}
-                </a>
-              </div>
-            );
-          })}
+        <div className="flex gap-4 mt-4 md:mt-0">
+          {social.map((item, index) => (
+            <a
+              key={index}
+              href={item.link}
+              target="_blank"
+              className="text-white font-light text-sm hover:underline"
+            >
+              {item.name}
+            </a>
+          ))}
         </div>
       </div>
     </div>

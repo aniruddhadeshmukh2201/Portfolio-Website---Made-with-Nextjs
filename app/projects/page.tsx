@@ -22,12 +22,12 @@ const projects = [
     imgSrc: "/flint.jpg",
   },
 
-  {
-    title: "Buy Indicator for Stocks",
-    description:
-      "This project involves building a Buy Indicator System for stocks in my portfolio, using a combination of financial metrics and valuation techniques.",
-    imgSrc: "/market.jpg",
-  },
+  // {
+  //   title: "Buy Indicator for Stocks",
+  //   description:
+  //     "This project involves building a Buy Indicator System for stocks in my portfolio, using a combination of financial metrics and valuation techniques.",
+  //   imgSrc: "/market.jpg",
+  // },
   // {
   //   title: "Snake game from old Nokia phones",
   //   description:
@@ -52,13 +52,10 @@ const projects = [
 
 const ProjectsPage = () => {
   return (
-    <div className="flex flex-col gap-[32px] min-h-[700px] w-[1040px] py-[32px] overflow-y-scroll">
-      <div>
-        <h1 className="text-4xl font-bold">Projects</h1>
-      </div>
+    <div className="flex flex-col gap-8 min-h-screen max-w-[1040px] w-full py-8 px-4">
+      <h1 className="text-4xl font-bold text-center md:text-left">Projects</h1>
 
-      {/* Loop through the projects array */}
-      <div className="flex flex-col gap-[50px] w-full">
+      <div className="flex flex-col gap-10 w-full">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
