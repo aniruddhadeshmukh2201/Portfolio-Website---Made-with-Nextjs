@@ -6,18 +6,14 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class", // Ensures dark mode works with class-based switching
   theme: {
-    colors : {
-      'primary' : 'rgba(10, 10, 10, .99)',
-      'secondary' : '#222222',
-      'white': '#ffffff',
-      'tertiary' : '#666666'
-    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "rgba(10, 10, 10, .99)",
+        secondary: "#222222",
+        white: "#ffffff",
+        tertiary: "#666666",
       },
     },
   },
