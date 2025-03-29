@@ -21,7 +21,7 @@ export default function Home() {
               🔬 Passionate about <strong>system design, DevOps, and performance optimization</strong>.
             </li>
             <li>
-              🏍 When I'm not coding, you'll find me riding my <strong>Royal Enfield</strong>, planning my next adventure.
+              🏍 When I&apos;m not coding, you&apos;ll find me riding my <strong>Royal Enfield</strong>, planning my next adventure.
             </li>
           </ul>
         </div>
