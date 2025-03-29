@@ -7,7 +7,7 @@ const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 flex justify-center bg-primary px-6">
+    <div className="sticky top-0 flex justify-center bg-primary px-6 z-50">
       <div className="flex items-center justify-between w-full max-w-[1040px] py-4">
         {/* Logo */}
         <Link className="font-extrabold text-lg uppercase text-white" href={"/"}>

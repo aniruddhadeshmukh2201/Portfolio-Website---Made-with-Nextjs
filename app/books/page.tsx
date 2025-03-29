@@ -1,112 +1,43 @@
-
-
-
-
-
-
 const BooksPage = () => {
-
     const books = [
-        {
-            id: 1,
-            image: "/MSFM.jpg", 
-        },
-        {
-            id: 2,
-            image: "/BK.jpg",
-        },
-        {
-            id: 3,
-            image: "/TKAMB.jpg",
-        },
-        {
-            id: 4,
-            image: "/the idiot.jpg",
-        },
-        {
-            id: 5,
-            image: "/12 rules for life.jpg",
-        },
-        {
-            id: 6,
-            image: "/deep work.jpg",
-        },
-        {
-            id: 6,
-            image: "/the power of habits.jpg",
-        },
+      { id: 1, image: "/MSFM.jpg" },
+      { id: 2, image: "/BK.jpg" },
+      { id: 3, image: "/TKAMB.jpg" },
+      { id: 4, image: "/the idiot.jpg" },
+      { id: 5, image: "/12 rules for life.jpg" },
+      { id: 6, image: "/deep work.jpg" },
+      { id: 7, image: "/the power of habits.jpg" },
     ];
-
-    const anime = [
-        {
-            id: 1,
-            image: "/AOT.jpg",
-        },
-        {
-            id: 2,
-            image: "/DEATHNOTE.jpg",
-        },
-        {
-            id: 3,
-            image: "/NARUTO.jpg",
-        },
-        {
-            id: 4,
-            image: "/ONEPIECE.jpg",
-        },
-        {
-            id: 5,
-            image: "/OPM.jpg",
-        },
-        {
-            id: 6,
-            image: "/SAO.jpg",
-        },
-        {
-            id: 7,
-            image: "/TOKYO.jpg",
-        },
-        {
-            id: 8,
-            image: "/TPN.jpg",
-        },
-        {
-            id: 9,
-            image: "/YU.jpg",
-        }
-    ];
-
+  
     return (
-        <div className="flex flex-col gap-[48px] justify-between w-[1040px] py-[100px]">
-            <div className="flex flex-col gap-[48px] w-[1040px]">
-                <div className="text-4xl font-bold">I loved reading these books</div>
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8">
-                    {books.map((book) => (
-                        <div key={book.id} className="  duration-200">
-                            <div className="flex justify-between">
-                                <img src={book.image} alt={""} className="hover:cursor  object-cover" />
-                            </div>
-                            
-                        </div>
-                    ))}
+      <div className="flex flex-col min-h-screen">
+  
+        {/* Scrollable Content Section */}
+        <div className="flex flex-col items-center w-full px-4 md:px-8 py-20"
+        >
+          <div className="w-full max-w-[1040px] px-2">
+            <h2 className="text-4xl font-bold text-center mb-8">I Loved Reading These Books</h2>
+  
+            {/* Responsive Grid for Books */}
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6">
+              {books.map((book) => (
+                <div key={book.id} className="group duration-200 transform hover:scale-105">
+                  <div className="flex justify-center">
+                    <img
+                      src={book.image}
+                      alt="Book Cover"
+                      className="object-cover w-full max-w-[160px] sm:max-w-[180px] md:max-w-[200px] lg:max-w-[220px] rounded-lg shadow-md"
+                    />
+                  </div>
                 </div>
+              ))}
             </div>
-            {/* <div className="flex flex-col gap-[48px] w-[1040px]">
-                <div className="text-4xl font-bold">Recomended Anime</div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {anime.map((anime) => (
-                        <div key={anime.id} className="  duration-200">
-                            <div className="flex justify-between">
-                                <img src={anime?.image ?? ""} alt={""} className="hover:cursor  object-cover" />
-                            </div>
-                            
-                        </div>
-                    ))}
-                </div>
-            </div> */}
+          </div>
         </div>
+  
+      </div>
     );
-}
-
-
-export default BooksPage;
+  };
+  
+  export default BooksPage;
+  
